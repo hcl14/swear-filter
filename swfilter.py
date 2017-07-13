@@ -12,7 +12,7 @@ import re
 
 parentpath= os.path.dirname(os.path.realpath(__file__))
 
-DIC_PATH=os.path.join(parentpath,'bigdict.txt')
+DIC_PATH=os.path.join(parentpath,'bigdict_pluralized.txt')
 
 with open(DIC_PATH) as f:
     words_list = [p.rstrip('\n').strip(' ') for p in f.readlines()]
