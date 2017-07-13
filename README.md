@@ -10,3 +10,7 @@ Function `mark_string()` returns positions of suspicious words.
 
 Search of the whole word or substring is possible.
 
+# Udating:
+
+Add word to the `bigdict.txt` and then run `pluralize.py` to generate dictionary with pluralized form.
+
